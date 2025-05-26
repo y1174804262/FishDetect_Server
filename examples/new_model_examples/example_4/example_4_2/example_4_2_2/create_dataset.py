@@ -11,10 +11,10 @@ def fix(url):
     # url = url.split('/')[0]
     return url
 
-def fix_url():
-    data = pd.read_csv("../../datasets/dataset.csv")
-    data["url"] = data["url"].apply(fix)
-    data.to_csv("../../datasets/dataset_url.csv", index=False)
+# def fix_url():
+#     data = pd.read_csv("../../datasets/dataset.csv")
+#     data["url"] = data["url"].apply(fix)
+#     data.to_csv("../../datasets/dataset_url.csv", index=False)
 
 if __name__ == '__main__':
     fix_url()
