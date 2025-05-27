@@ -27,4 +27,9 @@ The complete project is stored in Alibaba Cloud Disk, which includes data collec
 https://pan.baidu.com/s/1nKvhpvdpllSCow9IpyeKxA?pwd=qcqr password: qcqr
 ```
 
-
+The experimental results are in the following folders:
+```angular2html
+examples/new_model_examples/example_4/example_4_2/example_4_2_2/runs
+```
+You can use tensorboard to open the result, and the result is shown as follows:
+![img.png](img.png)
